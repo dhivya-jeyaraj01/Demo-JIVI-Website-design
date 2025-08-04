@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(images/Rectangle\ 2.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'poppins';
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 60px;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-left: 7%;
+}
+ul{
+    margin-top: 0%;
+    margin-right: 0%;
+    
+}
+ul li{
+    list-style:none;
+    display: inline-block;
+    position: relative;
+    padding: 14px 20px;
+
+}
+ul li a{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1e1e1e;
+    margin-top: 0%;
+    text-align: left;
+    
+}
+
+ul li ul.dropdown li {
+    display: block;
+    background: whitesmoke;
+    width: 250px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+ul li ul.dropdown {
+    
+    background: whitesmoke;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    
+    color: #2173bb;
+    display: block;
+}
+ul li ul.dropdown li:hover {
+    background: #fff;
+}
+
+ul li ul.dropdown a:hover{
+    background: #fff;
+}
+
+ul li:hover ul.dropdown{
+    
+    display: block;
+    
+}
+.button{
+    padding-right: 7%;}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    background: #2173bb;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 1s ease;
+    }
+.button a:hover{
+    background: #759b3a;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 5.2%;
+    transition: right 2s ease;
+}
+.info h1{
+    font-size: 65;
+    color: #1e1e1e;
+    line-height: 1.5;
+    
+}
+.info h1:hover{
+    right: 55%;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1%;
+    line-height: 2;
+    color: #1e1e1e;
+    font-weight: 400;
+    padding-top: 3%;
+
+}
+.info .button{
+    padding-top: 2%;
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: #2173bb;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 1s ease;
+}
+.info a:hover{
+    background: #759b3a;
+}
+.image{
+    width:30%;
+    height:60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 37%;
+    transform: translate(-50%);
+    transition: left 2s ease;
+    bottom:0
+}
+.image:hover .wfm{
+    left: 55%;
+}
+
+.keysolutions .info{
+    text-align: center;
+    font-family:'poppins';
+    margin-top: 0%;
+}
+.keysolutions .info h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1e1e1e;
+} 
+.keysolutions .info h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #1e1e1e;
+
+}
+.roster-effectiveness{
+    background: url(images/green\ Bg\ RE.png);
+    background-position: left;
+    height: 300px;
+    position: relative;
+    width: 70%;
+    margin-top: -1%;
+    font-family: 'poppins';
+}
+.roster-effectiveness .info{
+    color: #1e1e1e;
+    margin-left: 10%;
+}
+.roster-effectiveness .info h2{
+    font-size: 40;
+    font-weight: 600;
+    padding-top: 8.5%;
+}
+.roster-effectiveness .info h3{
+    line-height:2;
+    font-size: 18;
+    font-weight: 400;
+}
+.roster-effectiveness .image{
+    height: 223px;
+    position: absolute;
+    margin-top: 6%;
+    margin-bottom: -.7%;
+    margin-right: -35%;
+}
+.roster-effectiveness .image img{
+    position: absolute;
+    height: 140%;
+    left: 37%;
+    transform: translate(-50%);
+    transition: left 2s ease;
+    
+}
+.roster-effectiveness .image:hover .re{
+    left: 55%
+}
+.owp{
+    width: 100%;
+    background: url(images/Rectangle\ 7.png);
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    position: relative;
+    font-family: 'poppins';
+    margin-top: -3%;
+}
+
+.owp .info{
+    color: #1e1e1e;
+    margin-left: 43%;
+    padding-top: 6%;
+}
+.owp .info h2{
+    font-size: 40;
+    font-weight: 600;
+}
+.owp .info h3{
+    line-height:2;
+    font-size: 18;
+    font-weight: 400;
+}
+.owp .image{
+    height: 180px;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+}
+.owp .image img{
+    position: absolute;
+    left: 37%;
+    transform: translate(-50%);
+    transition: left 2s ease;
+    bottom:0;
+}
+.owp .image:hover .optimized{
+    left: 55%;
+}
+.Automatic-allocation{
+    font-family: 'poppin';
+    background: url(images/aa.png);
+    margin-top: 2.2%;
+}
+.Automatic-allocation .info{
+    color: #1e1e1e;
+    
+    
+    
+}
